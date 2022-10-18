@@ -1,6 +1,0 @@
-trigger: none
-
-jobs:
-  - template: /pipelines/templates/jobs/groovy/run.yml
-    parameters:
-      ScriptPath: src/test/java/framework/run/debug/arun.groovy
