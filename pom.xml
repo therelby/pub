@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>biz.clarcinc.automation.above</groupId>
+    <artifactId>Automation.Framework</artifactId>
+    <version>2.0.0</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <groovyVersion>3.0.6</groovyVersion>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovyVersion}</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-dateutil</artifactId>
+            <version>${groovyVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-datetime</artifactId>
+            <version>${groovyVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>8.4.0.jre8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.13.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>7.6.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.25</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20211205</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-validator</groupId>
+            <artifactId>commons-validator</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.jai-imageio</groupId>
+            <artifactId>jai-imageio-core</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-eclipse-batch</artifactId>
+            <version>3.0.8-01</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.14.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cedarsoftware</groupId>
+            <artifactId>groovy-io</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.assertthat</groupId>
+            <artifactId>selenium-shutterbug</artifactId>
+            <version>1.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.35</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.grails</groupId>
+            <artifactId>grails-async</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
+            <version>6.1.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.5.13</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.14.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-to-slf4j</artifactId>
+            <version>2.18.0</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <argLine>-Xmx2048m</argLine>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.gmavenplus</groupId>
+                <artifactId>gmavenplus-plugin</artifactId>
+                <version>1.11.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <scripts>
+                        <script>${project.basedir}/${scriptPath}</script>
+                    </scripts>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-all</artifactId>
+                        <version>3.0.6</version>
+                        <type>pom</type>
+                        <scope>runtime</scope>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <compilerId>groovy-eclipse-compiler</compilerId>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-compiler</artifactId>
+                        <version>3.6.0-03</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-batch</artifactId>
+                        <version>3.0.6-01</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>
